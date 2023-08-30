@@ -1,0 +1,21 @@
+
+
+
+
+
+.html{
+    background-color: rgb(191, 226, 217);
+}
+
+.pageContainer{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading{
+    width: 100vw;
+    display: flex;
+    margin: 0 auto;
+    font-size: 48px;
+}
