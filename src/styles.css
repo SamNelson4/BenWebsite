@@ -18,4 +18,34 @@
     display: flex;
     margin: 0 auto;
     font-size: 48px;
+    margin-bottom: 75px;
+}
+
+.tabsContainer{
+    background-color: green;
+    width: 100%;
+    display: table;
+    font-weight: bolder;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.tabs{
+    display: table-row;
+    background-color: blue;
+
+}
+
+.aboutMeTab{
+    display: table-cell;
+}
+
+.myWorkTab{
+    display: table-cell;
+}
+.natureImage{
+    height: auto;
+    width: 100vw;
+    margin-top: 10px;
 }
