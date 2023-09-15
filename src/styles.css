@@ -4,7 +4,7 @@
 
 
 .html{
-    background-color: rgb(191, 226, 217);
+    background-color: #DDDDDD;
 }
 
 .pageContainer{
@@ -14,18 +14,28 @@
 }
 
 .heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100vw;
     display: flex;
     margin: 0 auto;
-    font-size: 48px;
+    font-size: 56px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+.subheading{
+    margin-top: 0;
     margin-bottom: 75px;
+    width: 33%;
 }
 
 .tabsContainer{
-    background-color: green;
     width: 100%;
     display: table;
     font-weight: bolder;
+    border-collapse: collapse;
     &:hover{
         cursor: pointer;
     }
@@ -33,17 +43,15 @@
 
 .tabs{
     display: table-row;
-    background-color: blue;
-
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
-.aboutMeTab{
+.Tab{
+    padding: 10px;
     display: table-cell;
 }
 
-.myWorkTab{
-    display: table-cell;
-}
 .natureImage{
     height: auto;
     width: 100vw;
